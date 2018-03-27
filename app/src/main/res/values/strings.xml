@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="btn_mostrar">Show</string>
+    <string name="text_intro"></string>
+    <string name="text_visualizar"></string>
+    <string name="btn_gravar">Save</string>
+    <string name="introduza_o_texto">Input you text</string>
+    <string name="btn_apagar">Clean</string>
+</resources>

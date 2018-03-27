@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bloco de notas</string>
+    <string name="btn_apagar">Limpar</string>
+    <string name="btn_gravar">Gravar</string>
+    <string name="introduza_o_texto">Introduza o texto</string>
+    <string name="btn_mostrar">Mostrar</string>
+</resources>

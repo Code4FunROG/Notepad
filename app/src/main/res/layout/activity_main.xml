@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mz.mondlhane.sinrostro.notepad.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/textIntro"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="73dp"
+            android:ems="10"
+            android:hint="@string/introduza_o_texto"
+            android:inputType="textMultiLine"
+            android:text="@string/text_intro" />
+
+        <Button
+            android:id="@+id/btnGravar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textIntro"
+            android:layout_alignStart="@+id/textIntro"
+            android:layout_below="@+id/textIntro"
+            android:layout_marginTop="33dp"
+            android:text="@string/btn_gravar" />
+
+        <Button
+            android:id="@+id/btnApagar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnGravar"
+            android:layout_alignBottom="@+id/btnGravar"
+            android:layout_alignEnd="@+id/textIntro"
+            android:layout_alignRight="@+id/textIntro"
+            android:text="@string/btn_apagar" />
+
+        <TextView
+            android:id="@+id/textVisualizar"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignEnd="@+id/btnApagar"
+            android:layout_alignLeft="@+id/btnGravar"
+            android:layout_alignRight="@+id/btnApagar"
+            android:layout_alignStart="@+id/btnGravar"
+            android:layout_below="@+id/btnGravar"
+            android:layout_marginTop="45dp"
+            android:text="@string/text_visualizar" />
+
+        <Button
+            android:id="@+id/btnMostrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="21dp"
+            android:text="@string/btn_mostrar" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
